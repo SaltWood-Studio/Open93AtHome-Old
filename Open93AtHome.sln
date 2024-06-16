@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open93AtHome", "Open93AtHome\Open93AtHome.csproj", "{0AF6AB1B-CB1A-4A06-B7EE-A62C1E7A4166}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Open93AtHome", "Open93AtHome\Open93AtHome.csproj", "{0AF6AB1B-CB1A-4A06-B7EE-A62C1E7A4166}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BangbangASP", "BangbangASP\BangbangASP.csproj", "{D201D10F-4F89-47B0-ABF1-96A6A19691C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0AF6AB1B-CB1A-4A06-B7EE-A62C1E7A4166}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AF6AB1B-CB1A-4A06-B7EE-A62C1E7A4166}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AF6AB1B-CB1A-4A06-B7EE-A62C1E7A4166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D201D10F-4F89-47B0-ABF1-96A6A19691C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D201D10F-4F89-47B0-ABF1-96A6A19691C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D201D10F-4F89-47B0-ABF1-96A6A19691C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D201D10F-4F89-47B0-ABF1-96A6A19691C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

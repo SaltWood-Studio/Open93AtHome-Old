@@ -29,33 +29,14 @@ namespace Open93AtHome
             return hexString.ToString();
         }
 
-        public static ulong[] BlobToUInt64(byte[] blob)
+        public static ulong ByteArrayToUInt64(byte[] blob)
         {
-            ulong[] result = new ulong[blob.Length / 8];
+            ulong result = 0;
 
-            for (int i = 0; i < result.Length; i++)
+            for (int j = 0; j < 8; j++)
             {
-                for (int j = 0; j < 8; j++)
-                {
-                    result[i] *= 256;
-                    result[i] += blob[i * 8 + j];
-                }
-            }
-
-            return result;
-        }
-
-        public static byte[] UInt64ToBlob(ulong[] uint64)
-        {
-            byte[] result = new byte[uint64.Length * 8];
-
-            for (int i = 0; i < uint64.Length; i++)
-            {
-                for (int j = 0; j < 8; j++)
-                {
-                    result[i * 8 + (7 - j)] = (byte)(uint64[i] % 256);
-                    uint64[i] /= 256;
-                }
+                result *= 256;
+                result += blob[j];
             }
 
             return result;
