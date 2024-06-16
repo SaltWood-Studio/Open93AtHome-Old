@@ -20,11 +20,14 @@ namespace Open93AtHome.Modules.Database
         [Column("cluster_secret")]
         public string ClusterSecret { get; set; } = string.Empty;
 
-        // [Column("hits")]
-        // public ulong[] Hits { get; set; } = new ulong[30];
-        // 
-        // [Column("bytes")]
-        // public ulong[] Bytes { get; set; } = new ulong[30];
+        [Column("endpoint")]
+        public string Endpoint { get; set; } = string.Empty;
+
+        [Column("down_reason")]
+        public string DownReason { get; set; } = string.Empty;
+
+        [Column("cluster_name")]
+        public string ClusterName { get; set; } = string.Empty;
 
         public static ClusterEntity CreateClusterEntity()
         {

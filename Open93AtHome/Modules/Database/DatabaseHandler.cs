@@ -17,6 +17,7 @@ namespace Open93AtHome.Modules.Database
         {
             _db = new SQLiteConnection("./database.sqlite");
             _db.CreateTable<ClusterEntity>();
+            _db.CreateTable<ClusterStatisticsEntity>();
         }
 
         public void AddEntity<T>(T instance)
