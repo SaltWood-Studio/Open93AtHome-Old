@@ -3,8 +3,8 @@
 **↑万恶之源**
 
 ## 简介
-这是一个使用类似于[openbmclapi](https://github.com/bangbang93/openbmclapi)**主控端**的分发文件项目<br>
-不过分发的是**openbmclapi群内的梗图**，[在这里](https://github.com/Mxmilu666/bangbang93HUB)可以找到所有的梗图
+这是一个使用类似于[OpenBMCLAPI](https://github.com/bangbang93/openbmclapi)**主控端**的分发文件项目<br>
+不过分发的是**OpenBMCLAPI群内的梗图**，[在这里](https://github.com/Mxmilu666/bangbang93HUB)可以找到所有的梗图
 ## 部署
 此项目正在努力开发中...
 ## 调试
