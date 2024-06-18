@@ -8,7 +8,9 @@
 ## 部署
 此项目正在努力开发中...
 ## 调试
-将此项目git到本地，然后使用Visual Studio打开解决方案(.sln)，然后就是标准的C#开发流程了
+1. 将此项目git到本地
+2. 使用Visual Studio打开解决方案(.sln)
+3. 愉快的开发吧🎉
 ``` shell
 git clone https://github.com/SaltWood-Studio/Open93AtHome.git
 cd Open93AtHome
