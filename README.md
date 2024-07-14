@@ -18,7 +18,7 @@
 3. 愉快的开发吧🎉
 ``` shell
 git clone https://github.com/SaltWood-Studio/Open93AtHome-Old.git
-cd Open93AtHome
+cd Open93AtHome-Old
 ```
 ### 贡献
 提交PR前请确保你的代码至少经过编译测试
