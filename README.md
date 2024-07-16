@@ -1,5 +1,5 @@
 > [!warning]
-> 由于C#端并没有好用的sock.io实现<br>
+> 由于C#端并没有好用的socket.io实现<br>
 > 为保证兼容原版节点端<br>
 > **此项目暂时停止开发并使用Java开发**<br>
 > **[新项目地址](https://github.com/SaltWood-Studio/Open93AtHome)**
